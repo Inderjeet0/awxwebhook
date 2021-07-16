@@ -1,0 +1,31 @@
+---
+###################################################################################
+#                                                                                 #
+#                       !!! test_inder_repo Playbook !!!                                 #
+#                       =========================                                 #
+#                                                                                 #
+###################################################################################
+
+#
+# Add tasks for test_inder_repo here
+#
+
+#
+# TEST TASK
+# DELETE THIS TASK AT the time of implementation
+#
+
+- name: Test
+  debug:
+    msg: "Test"
+
+
+#- name: Ping Windows host 
+#  get_url:
+#    url: https://ntnew.service-now.com/sys_report_template.do?CSV&jvar_report_id=893203c71b53e010234362ca234bcb68 
+#    dest: /tmp 
+#    username: isk3
+#    mode: '0440'
+#    timeout: 30
+# - import_tasks: display_job1_vars.yml
+#   delegate_to: localhost

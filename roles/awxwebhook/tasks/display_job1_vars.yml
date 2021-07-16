@@ -1,0 +1,5 @@
+- debug:
+    msg: " Ansible username is {{ ansible_user }}"
+
+- debug:
+    msg: " Ansible password is {{ ansible_password }}"
